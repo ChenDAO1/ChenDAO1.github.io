@@ -13,6 +13,9 @@ body {
         margin-right: 0px;
         color:#0092b0;
     }
+    .introduction{
+        display: none;
+    }
 }
 
 @media (min-width: 1024px){
