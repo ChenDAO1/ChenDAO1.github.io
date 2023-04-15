@@ -50,8 +50,63 @@
 .button ul li a{
     color:rgb(181, 184, 184);
 }
+.loader {
+  background-image: url("images/bg3.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  animation: float 2s ease-in-out infinite;
+}
+
+.loader h1, .loader p {
+  text-align: center;
+  color: rgb(82, 134, 195);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
 </style>
-    <!-- 标题板块 -->
+
+    <script>
+        window.onload = function() {
+      
+      var loader = document.querySelector('.loader');
+  
+      setTimeout(function() {
+        loader.style.display = 'none';
+      }, 3000);
+    }
+    </script>
+<body>
+
+    <div class="loader">
+        <img src="images/003.png" alt="Logo">
+        <h1>Welcome to JLU-2023-IGEM</h1>
+      </div>
+
       <header>
   <div class="nav">
 
@@ -312,10 +367,10 @@
     </div>
 
     <!-- 两只zxy一样的猪 -->
-    <div class="xhjIsPig">
+    <!-- <div class="xhjIsPig">
         <img src="#" alt="pig1" class="pig1">
         <img src="#" alt="pig2" class="pig2">
-    </div>
+    </div> -->
 
 
 
