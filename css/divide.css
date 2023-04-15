@@ -8,6 +8,13 @@ body {
     background-color: #f5f5f5;
 }
 
+@media (max-width:760px){
+    .descriptionsection p {
+        margin-right: 0px;
+        color:#0092b0;
+    }
+}
+
 @media (min-width: 1024px){
 .generic-section {
     padding-bottom: 5vw;
@@ -111,7 +118,7 @@ body {
     width: 58vw;
 }
 .descriptionsection p {
-    margin-right: 100px;
+    margin-right: 25px;
     color:#0092b0;
 }
 .sectiondark p{
