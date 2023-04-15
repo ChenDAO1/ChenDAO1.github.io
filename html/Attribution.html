@@ -13,6 +13,12 @@
     <header>
         <div class="nav">
       
+          <div class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
           <div class="navlogo">
             <img src="../images/log.jpg" alt="logo" width="50" height="50">
       
@@ -87,16 +93,9 @@
 
 
 
-
-
-
       <div class="bg-divide">
         <img src="../images/45.jpg">
       </div>
-
-
-
-
 
 
       <section class="generic-section">
@@ -184,7 +183,12 @@ Gene synthesis was done by Genscript Biotechnology Co. Ltd (Nanjing, China).
 
 
 
-
+<script>
+  function toggleMenu() {
+    document.querySelector('.hamburger-menu').classList.toggle('open');
+    document.querySelector('.navlist').classList.toggle('open');
+  }
+</script>
 
 </body>
 </html>
