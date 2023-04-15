@@ -58,7 +58,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-overflow: hidden; 
+overflow: hidden;
+position: fixed;
+z-index: 999999;
 }
 
 /* 动画 */
@@ -114,13 +116,12 @@ margin-top: 2rem;
 
 
 
-
       window.onload = function() {
-var loader = document.querySelector('.loader');
-setTimeout(function() {
-loader.style.display = 'none';
-document.body.style.overflow = 'auto'; /启用滚动/
-}, 3000);
+  var loader = document.querySelector('.loader');
+  setTimeout(function() {
+    loader.style.display = 'none';
+    document.body.style.overflow = 'auto'; /* 启用滚动 */
+  }, 3000);
 };
 
 
