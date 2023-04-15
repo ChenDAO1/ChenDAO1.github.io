@@ -2,6 +2,7 @@
 
 ## Updates
 
+------------------Because of the frequent updates to the page afterwards, the updates in the subpages are now limited to "Attribution"!----------------------------------
 ### 2023/4/12
 
 - Updated web opening screen animation
