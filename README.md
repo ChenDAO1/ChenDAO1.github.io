@@ -1,11 +1,15 @@
 #website
 
-#2023/4/12 
+## Updates
 
-update web opening screen animation
+### 2023/4/12
 
-#2023/4/15 
+- Updated web opening screen animation
 
-1.Optimized the problem of unaligned pictures in paging
-2.Optimized the problem of incomplete display of the navigation bar on the cell phone
-3.Added the dynamic effect of the font in the home page large image
+### 2023/4/15
+
+- Optimized the problem of unaligned pictures in paging
+- Optimized the problem of incomplete display of the navigation bar on mobile devices
+- Added dynamic effect to the font in the large image on the home page
+
+
