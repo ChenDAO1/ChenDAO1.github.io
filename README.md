@@ -16,4 +16,5 @@
 
 ### 2023/4/19
 - Improved the sliding module of the page navigation to make it smoother
+- Replaced some images and optimized the performance of images in different screen sizes
 
