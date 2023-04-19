@@ -157,7 +157,25 @@ Figure 2. TAG lipase deletions result in greatly increased lipid accumulation in
 
 
 
-
+<script>
+  function toggleMenu() {
+    document.querySelector('.hamburger-menu').classList.toggle('open');
+    document.querySelector('.navlist').classList.toggle('open');
+  }
+    
+    
+$(document).ready(function() {
+    $('a[href^="#"]').on('click', function(event) {
+      event.preventDefault();
+      var target = $(this.hash);
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+      }
+    });
+  });
+</script>
 
 
 
