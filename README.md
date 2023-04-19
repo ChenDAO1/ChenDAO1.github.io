@@ -14,3 +14,6 @@
 - Added dynamic effect to the font in the large image on the home page
 - Optimized the problem of left deviation of pictures on cell phone
 
+### 2023/4/19
+- Improved the sliding module of the page navigation to make it smoother
+
