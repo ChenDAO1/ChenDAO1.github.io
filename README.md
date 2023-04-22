@@ -18,3 +18,6 @@
 - Improved the sliding module of the page navigation to make it smoother
 - Replaced some images and optimized the performance of images in different screen sizes
 
+### 2023/4/22
+- Optimized the image layout of pagination
+
