@@ -20,4 +20,5 @@
 
 ### 2023/4/22
 - Optimized the image layout of pagination
+- Improved the color of opening screen animation
 
