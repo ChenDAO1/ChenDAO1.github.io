@@ -22,3 +22,6 @@
 - Optimized the image layout of pagination
 - Improved the color of opening screen animation
 
+### 2023/4/26
+- Improved the colors of the navigation bar to match better and Add a logo to the navigation bar
+- Change the first background image of the main page
