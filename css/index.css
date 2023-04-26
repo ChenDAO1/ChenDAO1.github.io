@@ -17,6 +17,8 @@ a {
 a:hover {
     color: rgb(0, 130, 255);
     text-shadow: 0 0 5px white;
+    background-color: #ddd;
+			color: black;
 }
 
 .swiper-container {
