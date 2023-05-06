@@ -31,3 +31,7 @@
 - Fixed a Bug with the main page animation
 - Homepage logo with hyperlink
 
+### 2023/5/6
+- Image scaling has been adjusted
+- Some parts of the website are being reworked（dead line 5/15)
+
