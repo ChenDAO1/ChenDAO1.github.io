@@ -1,37 +1,9 @@
-#website
+# 中国科大先研院研会新闻中心 · 2026 招新网站
 
-## Updates
+新闻中心 2026 秋季学期招新网站，展示**摄影 / 推文 / 新闻稿 / 海报**四大职能。
 
-------------------Because of the frequent updates to the page afterwards, the updates in the subpages are now limited to "Attribution"!----------------------------------
-### 2023/4/12
+- 线上地址：<https://chenDAO1.github.io/>
+- 原 2023 JLU iGEM 旧站已备份至分支 `igem-2023`。
 
-- Updated web opening screen animation
-
-### 2023/4/15
-
-- Optimized the problem of unaligned pictures in paging
-- Optimized the problem of incomplete display of the navigation bar on mobile devices
-- Added dynamic effect to the font in the large image on the home page
-- Optimized the problem of left deviation of pictures on cell phone
-
-### 2023/4/19
-- Improved the sliding module of the page navigation to make it smoother
-- Replaced some images and optimized the performance of images in different screen sizes
-
-### 2023/4/22
-- Optimized the image layout of pagination
-- Improved the color of opening screen animation
-
-### 2023/4/26
-- Improved the colors of the navigation bar to match better and Add a logo to the navigation bar
-- Change the first background image of the main page
-
-### 2023/4/29
-- Improved open screen animation background color to better match
-- Fixed a Bug with the main page animation
-- Homepage logo with hyperlink
-
-### 2023/5/6
-- Image scaling has been adjusted
-- Some parts of the website are being reworked（dead line 5/15)
-
+## 说明
+本目录为网站静态快照，包含 `index.html`（服务端渲染完整页面）、`assets/`（JS/CSS）、`media/`（图片）。原站由 Next.js / vinext 构建，此快照可直接由 GitHub Pages 托管。
